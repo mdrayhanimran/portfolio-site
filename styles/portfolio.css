@@ -73,12 +73,70 @@ nav ul li a{
 
 
 
-.banner-content{
-  margin-left: 210
-  px;
-}
+
 .header{
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+}
+.download-cv{
+  margin-right: 10px;
+}
+
+/* main part */
+main{
+  max-width: 1140px;
+  margin: 77px auto;
+}
+.section-title{
+  color: #181818;
+  font-size: 35px;
+}
+.section-description{
+  color: #757575;
+  font-size: 20px;
+}
+.about{
+  text-align: center;
+  padding: 131px 157px;
+}
+.header-bg{
+  background-color: #FFF8F3;
+}
+.main-bg{
+  background-color: #FFF8F3;
+}
+.about-item{
+  font-size: 20px;
+  color: #757575;
+  font-weight: 600;
+}
+.about-description{
+  font-size: 20px;
+  color: #181818;
+  font-weight: 600;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  gap: 0;
+  margin: 0;
+}
+.skill{
+padding: 30px;
+border-color: #181818;
+border: 50px;
+box-shadow: rgba(0, 0, 0, 0.06);
+;
+}
+.skills-conteiner{
+display: flex;
+gap: 24px;
+}
+.skills{
+  text-align: center;
+}
+.what-i-do{
+  margin: 130px 346px;
+  text-align: center;
 }
