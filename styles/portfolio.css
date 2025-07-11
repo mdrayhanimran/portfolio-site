@@ -124,9 +124,8 @@ main{
 }
 .skill{
 padding: 30px;
-border-color: #181818;
-border: 50px;
-box-shadow: rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
 ;
 }
 .skills-conteiner{
